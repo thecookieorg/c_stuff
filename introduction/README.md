@@ -30,3 +30,9 @@ Lets see how our entire program looks like, so we can break it down line by line
   }
 ```
 
+Right after our *stdio.h* definition, we have this *int main()* line.
+The int keyword indicates that the function main will return an integer. The number which will be returned by the function indicates whether the program that we wrote worked correctly.
+
+If we want to say that our code was run successfully, we will return the number 0.
+
+A number greater than 0 will mean that the program we wrote failed.
